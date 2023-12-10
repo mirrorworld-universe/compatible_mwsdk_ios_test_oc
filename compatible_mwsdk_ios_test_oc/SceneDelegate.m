@@ -54,4 +54,27 @@
 }
 
 
+
+////
+///
+///
+///
+
+- (void)scene:(UIScene *)scene openURLContexts:(NSSet<UIOpenURLContext *> *)URLContexts {
+    if ([URLContexts count] > 0) {
+        UIOpenURLContext *urlContext = URLContexts.allObjects.firstObject;
+        [self handleOpenURLContext:urlContext];
+    }
+}
+
+// 处理打开的 URL
+- (void)handleOpenURLContext:(UIOpenURLContext *)urlContext {
+    NSURL *url = urlContext.URL;
+    NSLog(@"handleOpenURLContext %@",url);
+}
+
+
+
+
+
 @end
