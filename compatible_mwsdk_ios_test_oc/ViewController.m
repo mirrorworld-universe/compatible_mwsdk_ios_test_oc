@@ -19,10 +19,18 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)initTapped:(id)sender {
+    [MWSDK initSDK:1 chain:1 apiKey:"mw_tonemRuZ2UvqExDrL2ZuTcaArYlZHGGPPkS"];
+}
+
 - (IBAction)loginButtonTapped:(id)sender {
-    [MWSDK startLogin:^(NSMutableDictionary<NSString *, id> * _Nullable loginResultDic) {
+    [MWSDK autoLogin:^(NSMutableDictionary<NSString *, id> * _Nullable loginResultDic) {
         NSLog(@"loginButtonTapped!");
     }];
+}
+
+- (IBAction)logTestTapped:(id)sender {
+    [MWSDK logMessage:@" oc test project message"];
 }
 
 

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E61C7A322B2568D200478706 /* MWSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61C7A302B2568A400478706 /* MWSDK.framework */; };
-		E61C7A332B2568D200478706 /* MWSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E61C7A302B2568A400478706 /* MWSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E61C7A442B27160B00478706 /* MWSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61C7A422B27160700478706 /* MWSDK.framework */; };
+		E61C7A452B27160B00478706 /* MWSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E61C7A422B27160700478706 /* MWSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E6F477E12B2412FA00E52F17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F477E02B2412FA00E52F17 /* AppDelegate.m */; };
 		E6F477E42B2412FA00E52F17 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F477E32B2412FA00E52F17 /* SceneDelegate.m */; };
 		E6F477E72B2412FA00E52F17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F477E62B2412FA00E52F17 /* ViewController.m */; };
@@ -45,7 +45,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E61C7A332B2568D200478706 /* MWSDK.framework in Embed Frameworks */,
+				E61C7A452B27160B00478706 /* MWSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,7 +53,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E61C7A302B2568A400478706 /* MWSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MWSDK.framework; sourceTree = "<group>"; };
+		E61C7A422B27160700478706 /* MWSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MWSDK.framework; sourceTree = "<group>"; };
 		E6F477DC2B2412FA00E52F17 /* compatible_mwsdk_ios_test_oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = compatible_mwsdk_ios_test_oc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F477DF2B2412FA00E52F17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E6F477E02B2412FA00E52F17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E61C7A322B2568D200478706 /* MWSDK.framework in Frameworks */,
+				E61C7A442B27160B00478706 /* MWSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +102,7 @@
 		E6F477D32B2412FA00E52F17 = {
 			isa = PBXGroup;
 			children = (
-				E61C7A302B2568A400478706 /* MWSDK.framework */,
+				E61C7A422B27160700478706 /* MWSDK.framework */,
 				E6F477DE2B2412FA00E52F17 /* compatible_mwsdk_ios_test_oc */,
 				E6F477FA2B2412FB00E52F17 /* compatible_mwsdk_ios_test_ocTests */,
 				E6F478042B2412FB00E52F17 /* compatible_mwsdk_ios_test_ocUITests */,

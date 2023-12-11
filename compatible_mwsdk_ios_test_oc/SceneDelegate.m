@@ -6,6 +6,7 @@
 //
 
 #import "SceneDelegate.h"
+#import <MWSDK/MWSDK.h>
 
 @interface SceneDelegate ()
 
@@ -71,6 +72,7 @@
 - (void)handleOpenURLContext:(UIOpenURLContext *)urlContext {
     NSURL *url = urlContext.URL;
     NSLog(@"handleOpenURLContext %@",url);
+    [MWSDK handleOpen:url];
 }
 
 
