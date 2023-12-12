@@ -33,5 +33,15 @@
     [MWSDK logMessage:@" oc test project message"];
 }
 
+- (IBAction)clearSDKCache:(id)sender {
+    [MWSDK clearMWCache];
+}
+
+- (IBAction)openWallet:(id)sender {
+    [MWSDK openWallet:^{
+        NSLog(@"This is a message from oc demo");
+    }];
+}
+
 
 @end

@@ -43,6 +43,24 @@
                                     <action selector="initTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CIN-k7-kPc"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h0n-V0-CTj">
+                                <rect key="frame" x="140" y="293" width="113" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ClearCache"/>
+                                <connections>
+                                    <action selector="clearSDKCache:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yz5-iV-sd5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bww-c6-4Rk">
+                                <rect key="frame" x="141" y="336" width="112" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="OpenWallet"/>
+                                <connections>
+                                    <action selector="openWallet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7TA-dH-owq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
